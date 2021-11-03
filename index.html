@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Arvid Magnusson</title>
+    <title>Arvid, Engineering student</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <!-- <link rel="shortcut icon" href="favicon.ico">   -->
+    <link rel="shortcut icon" href="favicon.ico">
     
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
@@ -69,9 +69,15 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About me</h2>
                         <div class="content">
-                            <p>Jag går femte året vid Linköpings universitet där jag studerar till civilingenjör i Medieteknik. 
-                                Nu under mastern inriktar jag mig på AI och maskininlärning, bildbehandling och bildanalys samt datorgrafik.
-                                  </p>
+                            <p>
+                                I'm a 24 year old student currently working towards my 
+                                <a href="https://liu.se/utbildning/program/6cmen">M.Sc in Media technology and engineering</a> degree from Linköping University at campus Norrköping.
+                                It's focused on computer graphics, visualization, AI and machinelearning, image processing in addition to the standard engineering courses.
+
+                                I have a big interest in technology in general and like the creative freedom that programming gives you. During my education I have specifically developed an interest
+                                in image proccessing and analysis, preferably combined with some AI. 
+                                On this page I have gathered some of the projects I have done during my time at Linköping University.
+                            </p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -92,7 +98,12 @@
                                 
                                 <h3 class="title mb-3">Visualization and data mining of the top Spotify songs the last decade</h3>    
                                 <div class="desc text-start">                                    
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                                    <p>
+                                       An application with interactvie visualization of the top Spotify songs the last decade, each song consisting of 14 attributes. 
+                                       It uses three methods to achieve this: a multi-line chart, parallel coordinates and a radar chart. 
+                                       In addition it uses DBSCAN to cluster the songs according to how similar they are. 
+                                       Implemented as a web application using HTML/CSS/JavaScript and the JavaScript library D3.js. 
+                                    </p>
                                 </div><!--//desc-->         
                                 <div>
                                     <a class="more-link" href="https://github.com/veiyas/Spotify-top-50-through-the-years" target="_blank"><i class="fas fa-external-link-alt"></i>Github</a> 
@@ -107,7 +118,12 @@
                                 </div>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title">Neural Style Transfer</h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p class="mb-2">
+                                        Uses deep learning to compose images in the style of another image. Neural style transfer is an optimization technique used to take a content image
+                                        and a style image and blend them together to get the content image but "painted" in the style of the style image.
+                                        Uses a convolutional neural network to extract features from certain layers and then calculate and iteratively minimize a loss function. 
+                                        Implemented in Python using Tensorflow. 
+                                    </p>
                                     <p>
                                         <a class="more-link" href="https://github.com/veiyas/ARTisan" target="_blank"><i class="fas fa-external-link-alt"></i>Github</a> 
                                         <a class="more-link" href="reports/ARTisan.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>
@@ -121,7 +137,12 @@
                                 </div>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title">VR card game - Bachelor's project</h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p class="mb-2">
+                                        A multiplayer card game in VR. Two players face of against eachother and controls a golem by playing cards.
+                                        The goal of the project was to make the game challenging cognitive wise by giving the player alot of options and plenty of things to micro-manage.
+                                        The game was implemented in Unreal Engine 4 and Oculus Rift as the vr-headsets.
+                                         Another important part of the project was to practice agile software development in the form of Scrum.
+                                    </p>
                                     <p>
                                         <a class="more-link" href="https://github.com/marha690/KandidatSpel" target="_blank"><i class="fas fa-external-link-alt"></i>Github</a> 
                                         <a class="more-link" href="reports/kandidat.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>
@@ -135,7 +156,10 @@
                                 </div>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title">Face recognition</h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p class="mb-2">
+                                        A facial recognition algorithm designed and implemented to identify faces in images. Employs a classical approach to the problem 
+                                        by using techniques such as PCA together with eigenfaces or fisherfaces. Implemented in MATLAB.
+                                    </p>
                                     <p>
                                         <a class="more-link" href="https://github.com/veiyas/Face-detector-TNM034" target="_blank"><i class="fas fa-external-link-alt"></i>Github</a> 
                                         <a class="more-link" href="reports/face_recognition.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>
@@ -149,7 +173,12 @@
                                 </div>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title">Food review classification</h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p class="mb-2">
+                                        Sentiment analysis of Amazon Fine Food reviews using machinelearning. 
+                                        Uses natural language processing and text analysis to classify if the reviews are positive or negative from only looking at the actual text.
+                                        Utilizes TF-IDF to score the words according to how important they are and then applies Logistic regression as the learning method.
+                                        Written in Python.
+                                    </p>
                                     <p>
                                         <a class="more-link" href="https://github.com/OstronKim/Amazon-food-reviews-Sentiment-Analysis" target="_blank"><i class="fas fa-external-link-alt"></i>Github</a> 
                                         <a class="more-link" href="reports/amazon_fine_food.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Report</a>
